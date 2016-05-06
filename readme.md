@@ -1,3 +1,4 @@
+[![Circle CI](https://circleci.com/gh/segmentio/deku-tabs.svg?style=svg&circle-token=dece240e0b3835844f87874bfde541533ab61ede)](https://circleci.com/gh/segmentio/deku-tabs)
 
 # deku-tabs
 

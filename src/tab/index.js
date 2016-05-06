@@ -18,7 +18,7 @@ export default { render };
 function render({ props }) {
   const { rel, href, label, active, target } = props;
   return (
-    <li class="TabsTab" active={active}>
+    <li class="TabsTab" data-active={active}>
       <a class="TabsTab-link" href={href} rel={rel} target={target}>
         {label}
       </a>

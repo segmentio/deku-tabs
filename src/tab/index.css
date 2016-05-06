@@ -21,13 +21,7 @@
   margin-right: 0;
 }
 
-.TabsTab[disabled] {
-  cursor: default;
-  opacity: 0.4;
-  pointer-events: none;
-}
-
-.TabsTab[active] {
+.TabsTab[data-active] {
   color: var(--color-leaf);
   box-shadow: 0 -3px 0 var(--color-leaf) inset;
 }

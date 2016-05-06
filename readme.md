@@ -4,7 +4,7 @@
 
 A tabs component for Deku.
 
-![Demo]()
+![Demo](https://cldup.com/pk9QOwq4IW.png)
 
 ## Usage
 

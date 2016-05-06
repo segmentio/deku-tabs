@@ -1,6 +1,6 @@
 {
   "name": "@segment/deku-tabs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A tabs component for Deku.",
   "main": "lib/index.js",
   "style": "lib/index.css",

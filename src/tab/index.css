@@ -1,0 +1,47 @@
+
+.TabsTab {
+  display: block;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 10px -1px;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-family: var(--font-family-caps);
+  font-weight: 400;
+  color: #707479;
+  transition: all 100ms linear;
+  box-shadow: 0 0 0 var(--color-leaf) inset;
+}
+
+.TabsTab:first-child {
+  margin-left: 0;
+}
+
+.TabsTab:last-child {
+  margin-right: 0;
+}
+
+.TabsTab[disabled] {
+  cursor: default;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.TabsTab[active] {
+  color: var(--color-leaf);
+  box-shadow: 0 -3px 0 var(--color-leaf) inset;
+}
+
+.TabsTab:hover {
+  color: var(--color-leaf);
+  box-shadow: 0 -3px 0 var(--color-leaf) inset;
+}
+
+.TabsTab-link {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 0px 0 15px 0;
+  text-decoration: none;
+}

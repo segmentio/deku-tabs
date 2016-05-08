@@ -16,10 +16,10 @@ export default { render };
  */
 
 function render({ props }) {
-  const { rel, href, label, active, target } = props;
+  const { rel, href, label, active, target, onClick } = props;
   return (
     <li class="TabsTab" data-active={active}>
-      <a class="TabsTab-link" href={href} rel={rel} target={target}>
+      <a class="TabsTab-link" href={href} rel={rel} target={target} onClick={onClick}>
         {label}
       </a>
     </li>
